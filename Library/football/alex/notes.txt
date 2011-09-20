@@ -26,6 +26,10 @@ git init
 git add .
 git commit .
 
+git branch dev
+git branch
+git checkout dev
+
 
 database
 --------------
@@ -42,4 +46,46 @@ development:
   password: jigsaw
   pool: 5
   timeout: 5000
+
+
+
+-----------------
+Reset db index  |
+-----------------------------------------------------------------------------------------------------------
+jmineops=> truncate configurations;
+TRUNCATE TABLE
+jmineops=> select NEXTVAL('configurations_id_seq');
+ nextval
+---------
+     422
+(1 row)
+
+--------------------------------------
+
+jmineops=> select SETVAL('configurations_id_seq',1);
+ setval
+--------
+      1
+(1 row)
+
+jmineops=> select NEXTVAL('configurations_id_seq');
+ nextval
+---------
+       2
+(1 row)
+
+--------------------------------------
+
+jmineops_delete=> select setval('assignments_id_seq',1,false);
+ setval
+--------
+      1
+(1 row)
+
+jmineops_delete=> select nextval('assignments_id_seq');
+ nextval
+---------
+       1
+(1 row)
+
 
