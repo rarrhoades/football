@@ -20,3 +20,26 @@ ruby extconf.rb
 make
 make install
 
+repo setup
+-------------------
+git init
+git add .
+git commit .
+
+
+database
+--------------
+createdb -U developer football_trunk
+
+cat .bashrc
+alias sql='psql -U developer football_trunk'
+
+cat config/database.yml 
+development:
+  adapter: postgresql
+  database: football_trunk
+  username: developer
+  password: jigsaw
+  pool: 5
+  timeout: 5000
+
