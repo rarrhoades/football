@@ -67,6 +67,8 @@ divisions = Division.create([{ league_id: '1', name: 'East', year: '2010' },
                              { league_id: '1', name: 'West', year: '2011' }, 
                              { league_id: '2', name: 'Zeus', year: '2011' }, 
                              { league_id: '2', name: 'Hydra', year: '2011' }]) 
+cat app/views/divisions/index.html.erb 
+cat app/assets/stylesheets/divisions.css.scss 
 
 
 

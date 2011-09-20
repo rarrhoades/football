@@ -1,4 +1,6 @@
 Football::Application.routes.draw do
+  get "admin/index"
+
   resources :divisions
 
   resources :leagues
