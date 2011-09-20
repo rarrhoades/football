@@ -49,6 +49,17 @@ development:
 
 
 
+
+rails generate scaffold league name:string
+cat db/seeds.rb 
+leagues = League.create([{ name: 'Metal Triangles' }, { name: 'MineOPS' }])
+rake db:seeds
+
+
+
+
+
+
 -----------------
 Reset db index  |
 -----------------------------------------------------------------------------------------------------------
