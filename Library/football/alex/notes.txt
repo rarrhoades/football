@@ -48,14 +48,25 @@ development:
   timeout: 5000
 
 
-
-
+-----------
+Commands  |
+-----------------------------------------------------------------------------------------------------------
 rails generate scaffold league name:string
 cat db/seeds.rb 
 leagues = League.create([{ name: 'Metal Triangles' }, { name: 'MineOPS' }])
 rake db:seeds
+vi app/views/leagues/index.html.erb 
+vi app/assets/stylesheets/leagues.css.scss 
+vi app/views/layouts/application.html.erb
 
-
+rails generate scaffold division league_id:integer name:string year:integer
+cat db/seeds.rb 
+divisions = Division.create([{ league_id: '1', name: 'East', year: '2010' }, 
+                             { league_id: '1', name: 'West', year: '2010' }, 
+                             { league_id: '1', name: 'East', year: '2011' }, 
+                             { league_id: '1', name: 'West', year: '2011' }, 
+                             { league_id: '2', name: 'Zeus', year: '2011' }, 
+                             { league_id: '2', name: 'Hydra', year: '2011' }]) 
 
 
 
