@@ -1,0 +1,22 @@
+----------
+Configs  |
+-----------------------------------------------------------------------------------------------------------
+Gemfile
+---------
+gem 'sqlite3'
+gem 'execjs'
+gem 'pg'
+gem 'therubyracer'
+
+config/environment.rb
+-----------------------
+config.active_record.timestamped_migrations = false
+
+rails console
+---------------
+rvm pkg install readline
+cd /home/arhoades/.rvm/src/ruby-1.9.2-p290/ext/readline
+ruby extconf.rb 
+make
+make install
+
