@@ -76,7 +76,7 @@ cat app/views/admin/index.html.erb
 <%= link_to 'View Leagues', :controller => 'leagues', :action => 'index' %><br />
 <%= link_to 'View Divisions', :controller => 'divisions', :action => 'index' %><br />
 
-
+rails generate scaffold user first_name:string last_name:string email:string username:string password:string nickname:string image_url:text
 
 -----------------
 Reset db index  |
