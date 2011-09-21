@@ -70,6 +70,11 @@ divisions = Division.create([{ league_id: '1', name: 'East', year: '2010' },
 cat app/views/divisions/index.html.erb 
 cat app/assets/stylesheets/divisions.css.scss 
 
+rails generate controller admin index
+cat app/views/admin/index.html.erb
+<h1>Fantasy Football Site Admin</h1>
+<%= link_to 'View Leagues', :controller => 'leagues', :action => 'index' %><br />
+<%= link_to 'View Divisions', :controller => 'divisions', :action => 'index' %><br />
 
 
 
