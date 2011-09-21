@@ -1,4 +1,6 @@
 Football::Application.routes.draw do
+  resources :owners
+
   resources :users
 
   get "admin/index"
