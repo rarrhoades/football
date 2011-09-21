@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  division_id: 1
+  user_id: 1
+  name_1: MyString
+  name_2: MyString
+  symbol: MyString
+  logo_url: MyString
+
+two:
+  division_id: 1
+  user_id: 1
+  name_1: MyString
+  name_2: MyString
+  symbol: MyString
+  logo_url: MyString

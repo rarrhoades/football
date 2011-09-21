@@ -1,0 +1,30 @@
+<h1>League Divisions</h1>
+
+<table>
+<% @divisions.each do |division| %>
+  <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
+
+    <td class="list_name">
+      <dl>
+        <dt><%= division.league.name %></dt>
+        <dt><%= division.name %></dt>
+        <dt><%= division.year %></dt>
+      </dl>
+    </td>
+
+    <td class="list_actions">
+
+      <%= link_to 'Show', division %>,<br />
+      <%= link_to 'Edit', edit_division_path(division) %><br />
+    </td>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Division', new_division_path %>
+
+
+

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  league_id: 1
+  name: MyString
+  year: 1
+
+two:
+  league_id: 1
+  name: MyString
+  year: 1
