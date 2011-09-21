@@ -1,0 +1,102 @@
+week,home_team_id,home_team_name,home_team_score,away_team_id,away_team_name,away_team_score
+1,23,Lawn Mower,108,24,Team Mulloy,106
+1,,Team Hairmetal,118,,Hometown Hooligans,122
+1,,GameOverMan GameOver,90,,Team bubblesconky,104
+1,,CatTown Carnivores,142,,Team CatNap34,115
+1,,ImTheJugernaut Bitch,94,,JackBauer Lover,102
+1,,Dugans Revenge,96,,LA Skinjobbers,118
+2,,Team Hair Metal,153,,Lawn Mower,133
+2,,White Power,82,,GameOverMan GameOver,105
+2,,Hometown Hooligans,104,,Team bubblesconky,119
+2,,ImThe JuggernautBitch,121,,Screw You Guys I'm Goin' Home,122
+2,,Team CatNap34,87,,DUGANS REVENGE,112
+2,,JackBauer Lover,109,,LA Skinjobbers,134
+3,,Lawn Mower,145,,GameOverMan GameOver,124
+3,,Team bubblesconky,158,,Team Hair Metal,162
+3,,Hometown Hooligans,120,,White Power,111
+3,,Screw You Guys I'm Goin' Home,110,,DUGANS REVENGE,104
+3,,LA Skinjobbers,142,,ImThe JuggernautBitch,121
+3,,JackBauer Lover,102,,Team CatNap34,115
+4,,Team bubblesconky,153,,Lawn Mower,122
+4,,GameOverMan GameOver,98,,Hometown Hooligans,104
+4,,Team Hair Metal,121,,White Power,84
+4,,LA Skinjobbers,130,,Screw You Guys I'm Goin' Home,100
+4,,DUGANS REVENGE,99,,JackBauer Lover,94
+4,,ImThe JuggernautBitch,143,,Team CatNap34,133
+5,,Lawn Mower,146,,Hometown Hooligans,92.5
+5,,White Power,110,,Team bubblesconky,181
+5,,Team Hair Metal,53,,GameOverMan GameOver,103
+5,,Screw You Guys I'm Goin' Home,91,,JackBauer Lover,185.5
+5,,Team CatNap34,96.5,,LA Skinjobbers,138.5
+5,,ImThe JuggernautBitch,152,,DUGANS REVENGE,106
+6,,Screw You Guys I'm Goin' Home,129,,Lawn Mower,140
+6,,Team CatNap34,144,,White Power,114
+6,,ImThe JuggernautBitch,120,,Team Hair Metal,117
+6,,DUGANS REVENGE,110,,GameOverMan GameOver,98
+6,,LA Skinjobbers,121,,Team bubblesconky,104
+6,,JackBauer Lover,99,,Hometown Hooligans,120
+7,,White Power,150,,Screw You Guys I'm Goin' Home,118
+7,,Team Hair Metal,89,,Team CatNap34,138
+7,,GameOverMan GameOver,134,,ImThe JuggernautBitch,166
+7,,Team bubblesconky,129,,DUGANS REVENGE,94
+7,,Hometown Hooligans,113,,LA Skinjobbers,142.5
+7,,Lawn Mower,113,,JackBauer Lover,105
+8,,Screw You Guys I'm Goin' Home,85,,Team Hair Metal,69
+8,,Team CatNap34,81,,GameOverMan GameOver,139
+8,,ImThe JuggernautBitch,120,,Team bubblesconky,136
+8,,DUGANS REVENGE,99,,Hometown Hooligans,98
+8,,LA Skinjobbers,106,,Lawn Mower,122
+8,,JackBauer Lover,90,,White Power,117
+9,,GameOverMan GameOver,137,,Screw You Guys I'm Goin' Home,74
+9,,Team bubblesconky,144,,Team CatNap34,149
+9,,Hometown Hooligans,52,,ImThe JuggernautBitch,139
+9,,Lawn Mower,118,,DUGANS REVENGE,101
+9,,White Power,140,,LA Skinjobbers,81
+9,,Team Hair Metal,114,,JackBauer Lover,98
+10,,Screw You Guys I'm Goin' Home,144,,Team bubblesconky,86
+10,,Team CatNap34,141,,Hometown Hooligans,122
+10,,ImThe JuggernautBitch,128,,Lawn Mower,166
+10,,DUGANS REVENGE,161,,White Power,103
+10,,LA Skinjobbers,113,,Team Hair Metal,133
+10,,JackBauer Lover,151,,GameOverMan GameOver,109
+11,,Hometown Hooligans,141,,Screw You Guys I'm Goin' Home,167
+11,,Lawn Mower,125,,Team CatNap34,115
+11,,White Power,145,,ImThe JuggernautBitch,139
+11,,Team Hair Metal,123,,DUGANS REVENGE,95
+11,,GameOverMan GameOver,178,,LA Skinjobbers,131
+11,,Team bubblesconky,145,,JackBauer Lover,137
+12,,Lawn Mower,110,,Screw You Guys I'm Goin' Home,137
+12,,White Power,84,,Team CatNap34,150
+12,,Team Hair Metal,124,,ImThe JuggernautBitch,154
+12,,GameOverMan GameOver,139,,DUGANS REVENGE,99
+12,,Team bubblesconky,129,,LA Skinjobbers,136.5
+12,,Hometown Hooligans,104,,JackBauer Lover,117
+13,,Screw You Guys I'm Goin' Home,86,,White Power,99
+13,,Team CatNap34,89,,Team Hair Metal,139
+13,,ImThe JuggernautBitch,149,,GameOverMan GameOver,114
+13,,DUGANS REVENGE,137,,Team bubblesconky,112
+13,,LA Skinjobbers,116,,Hometown Hooligans,107.5
+13,,JackBauer Lover,80,,Lawn Mower,127
+14,,Team bubblesconky,218,,Lawn Mower,307.5
+14,,ImThe JuggernautBitch,231,,LA Skinjobbers,267
+14,,Screw You Guys I'm Goin' Home,174,,Team Hair Metal,215
+14,,Team CatNap34,203,,GameOverMan GameOver,238
+14,,White Power,232,,DUGANS REVENGE,238
+14,,Hometown Hooligans,279,,JackBauer Lover,291
+16,,LA Skinjobbers,115,,Lawn Mower,116
+16,,Team bubblesconky,81,,ImThe JuggernautBitch,180
+16,,GameOverMan GameOver,152,,Team Hair Metal,112
+16,,DUGANS REVENGE,144,,Screw You Guys I'm Goin' Home,68
+16,,JackBauer Lover,92,,Team CatNap34,133
+16,,Hometown Hooligans,86,,White Power,137
+1,,LA Skinjobbers,162.5,,Raptor Rapture,191
+1,,Team bubblesconky,93,,ImThe JuggernautBitch,120
+1,,Gatorade Shower,155,,TimeTo CatchUp,115
+1,,Spams Dad is my hero,97,,Screw You Guys I'm Goin' Home,148
+1,,Team CatNap34,143,,JackBauer Lover,119
+1,,Hometown Hooligans,128,,Portland PedoBear,115
+1,,Yanni Will Reap Your Soul...,109,,Team Momma,137
+1,,Blue Monster,124,,Da Blittz,109
+1,,Team HPD,106,,JS ChopLiver,97
+1,,Team woods,72,,OMONOIA LAOS,113
+1,,Los Engendros,92,,Red Barons,75

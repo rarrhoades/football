@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  week: 1
+  home_team_id: 1
+  home_team_name: MyString
+  home_score: 1.5
+  away_team_id: 1
+  away_team_name: MyString
+  away_score: 1.5
+
+two:
+  week: 1
+  home_team_id: 1
+  home_team_name: MyString
+  home_score: 1.5
+  away_team_id: 1
+  away_team_name: MyString
+  away_score: 1.5
