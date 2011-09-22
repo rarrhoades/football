@@ -15,7 +15,7 @@
   </tr>
 
 <% @games.each do |game| %>
-  <tr>
+  <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">>
     <td><%= game.week %></td>
     <td><%= game.home_team_id %></td>
     <td><%= game.home_team_name %></td>
@@ -33,3 +33,5 @@
 <br />
 
 <%= link_to 'New Game', new_game_path %>
+
+
