@@ -78,6 +78,13 @@ cat app/views/admin/index.html.erb
 
 rails generate scaffold user first_name:string last_name:string email:string username:string password:string nickname:string image_url:text
 
+
+
+git remote add football git@github.com:rarrhoades/football.git
+git push -u football master
+git push -u football dev
+
+
 -----------------
 Reset db index  |
 -----------------------------------------------------------------------------------------------------------
