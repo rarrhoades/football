@@ -78,6 +78,11 @@ cat app/views/admin/index.html.erb
 
 rails generate scaffold user first_name:string last_name:string email:string username:string password:string nickname:string image_url:text
 
+rails generate scaffold owner division_id:integer user_id:integer name_1:string name_2:string symbol:string logo_url:string
+
+rails generate scaffold team location:string name:string initials:string conference:string division:string logo_url:string
+
+rails generate scaffold game week:integer home_team_id:integer home_team_name:string home_score:float away_team_id:integer away_team_name:string away_score:float
 
 
 git remote add football git@github.com:rarrhoades/football.git
