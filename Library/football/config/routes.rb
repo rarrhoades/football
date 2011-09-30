@@ -1,4 +1,6 @@
 Football::Application.routes.draw do
+  resources :drafts
+
   resources :games
 
   resources :teams
