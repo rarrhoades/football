@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 7) do
+ActiveRecord::Schema.define(:version => 8) do
 
   create_table "divisions", :force => true do |t|
     t.integer  "league_id"
@@ -56,6 +56,17 @@ ActiveRecord::Schema.define(:version => 7) do
     t.string   "name_2"
     t.string   "symbol",      :limit => 4
     t.string   "logo_url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "players", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "position"
+    t.integer  "current_team_id"
+    t.integer  "position_rank"
+    t.integer  "rank"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

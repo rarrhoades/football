@@ -86,6 +86,10 @@ rails generate scaffold game week:integer home_team_id:integer home_team_name:st
 
 rails generate scaffold draft owner_id:integer player_id:integer year:integer round:integer pick:integer
 
+rails generate scaffold player first_name:string last_name:string position:string current_team_id:integer position_rank:integer rank:integer
+
+
+
 git remote add football git@github.com:rarrhoades/football.git
 git push -u football master
 git push -u football dev
