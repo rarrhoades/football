@@ -37,6 +37,7 @@ createdb -U developer football_trunk
 
 cat .bashrc
 alias sql='psql -U developer football_trunk'
+alias fb='/opt/football/Library/football'
 
 cat config/database.yml 
 development:
