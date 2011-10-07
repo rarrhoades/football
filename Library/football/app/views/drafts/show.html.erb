@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Owner:</b>
+  <%= @draft.owner_id %>
+</p>
+
+<p>
+  <b>Player:</b>
+  <%= @draft.player_id %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%= @draft.year %>
+</p>
+
+<p>
+  <b>Round:</b>
+  <%= @draft.round %>
+</p>
+
+<p>
+  <b>Pick:</b>
+  <%= @draft.pick %>
+</p>
+
+
+<%= link_to 'Edit', edit_draft_path(@draft) %> |
+<%= link_to 'Back', drafts_path %>

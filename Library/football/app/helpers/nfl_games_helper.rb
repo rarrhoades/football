@@ -1,0 +1,2 @@
+module NflGamesHelper
+end
