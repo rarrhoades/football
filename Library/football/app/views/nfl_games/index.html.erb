@@ -1,0 +1,34 @@
+<h1>Listing nfl_games</h1>
+
+<b>2011</b>
+<table>
+  <tr>
+    <th>Week</th>
+    <th>Home team</th>
+    <th>Home Points</th>
+    <th>Away team</th>
+    <th>Away points</th>
+    <th>Winner</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @nfl_games.each do |nfl_game| %>
+  <tr>
+    <td><%= nfl_game.week %></td>
+    <td><%= nfl_game.home_team.full_name %></td>
+    <td><%= nfl_game.home_points %></td>
+    <td><%= nfl_game.away_team.full_name %></td>
+    <td><%= nfl_game.away_points %></td>
+    <td><%= nfl_game.winner.initials %></td>
+    <td><%= link_to 'Show', nfl_game %></td>
+    <td><%= link_to 'Edit', edit_nfl_game_path(nfl_game) %></td>
+    <td><%= link_to 'Destroy', nfl_game, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Nfl game', new_nfl_game_path %>
