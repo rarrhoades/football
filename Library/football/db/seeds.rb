@@ -206,3 +206,22 @@ games = Game.create([{ week: '1', home_team_id: '25', home_team_name: 'Team Hair
 { week: '16', home_team_id: '33', home_team_name: 'LA Skinjobbers', home_score: '115', away_team_id: '23', away_team_name: 'Lawn Mower', away_score: '116' },
 { week: '16', home_team_id: '28', home_team_name: 'Hometown Hooligans', home_score: '86', away_team_id: '24', away_team_name: 'White Power', away_score: '137' },
 { week: '16', home_team_id: '27', home_team_name: 'Team bubblesconky', home_score: '81', away_team_id: '31', away_team_name: 'ImThe JuggernautBitch', away_score: '180' }])
+
+
+nfl_games = NflGame.create([ 
+{ year: '2011', week: '1', home_points: '28', away_points: '21', home_team_id: '9', away_team_id: '26', winner_id: '9' },
+{ year: '2011', week: '1', home_points: '30', away_points: '12', home_team_id: '17', away_team_id: '25', winner_id: '17' },
+{ year: '2011', week: '1', home_points: '35', away_points: '7', home_team_id: '21', away_team_id: '24', winner_id: '21' },
+{ year: '2011', week: '1', home_points: '7', away_points: '41', home_team_id: '14', away_team_id: '5', winner_id: '5' },
+{ year: '2011', week: '1', home_points: '27', away_points: '17', home_team_id: '22', away_team_id: '23', winner_id: '22' },
+{ year: '2011', week: '1', home_points: '20', away_points: '23', home_team_id: '13', away_team_id: '15', winner_id: '15' },
+{ year: '2011', week: '1', home_points: '42', away_points: '34', home_team_id: '19', away_team_id: '27', winner_id: '19' },
+{ year: '2011', week: '1', home_points: '34', away_points: '7', home_team_id: '29', away_team_id: '30', winner_id: '29' },
+{ year: '2011', week: '1', home_points: '16', away_points: '14', home_team_id: '31', away_team_id: '32', winner_id: '31' },
+{ year: '2011', week: '1', home_points: '20', away_points: '27', home_team_id: '28', away_team_id: '18', winner_id: '18' },
+{ year: '2011', week: '1', home_points: '24', away_points: '38', home_team_id: '6', away_team_id: '7', winner_id: '7' },
+{ year: '2011', week: '1', home_points: '27', away_points: '24', home_team_id: '8', away_team_id: '1', winner_id: '8' },
+{ year: '2011', week: '1', home_points: '24', away_points: '17', home_team_id: '16', away_team_id: '20', winner_id: '16' },
+{ year: '2011', week: '1', home_points: '33', away_points: '17', home_team_id: '10', away_team_id: '11', winner_id: '10' },
+{ year: '2011', week: '1', home_points: '13', away_points: '31', home_team_id: '12', away_team_id: '3', winner_id: '3' },
+{ year: '2011', week: '1', home_points: '28', away_points: '14', home_team_id: '4', away_team_id: '2', winner_id: '4' }])

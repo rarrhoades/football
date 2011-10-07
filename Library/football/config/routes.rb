@@ -1,4 +1,6 @@
 Football::Application.routes.draw do
+  resources :nfl_games
+
   resources :players
 
   resources :drafts

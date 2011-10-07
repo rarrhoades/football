@@ -8,7 +8,7 @@ gem 'execjs'
 gem 'pg'
 gem 'therubyracer'
 
-config/environment.rb
+config/application.rb
 -----------------------
 config.active_record.timestamped_migrations = false
 
