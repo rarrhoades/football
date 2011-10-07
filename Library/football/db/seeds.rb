@@ -34,7 +34,8 @@ users = User.create([{ first_name: 'Alex', last_name: 'Rhoades', email: 'rarrhoa
                      { first_name: 'Javier', last_name: 'Ramirez' },
                      { first_name: 'Daniel', last_name: 'Woods' },
                      { first_name: 'George', last_name: 'Mavros' },
-                     { first_name: 'Christian', last_name: 'Covarrubias' }])
+                     { first_name: 'Christian', last_name: 'Covarrubias' },
+                     { first_name: 'Eddie', last_name: 'Espinoza' }])
 
 owners = Owner.create([{ division_id: '3', user_id: '1', name_1: 'Raptor', name_2: 'Rapture' },
                        { division_id: '3', user_id: '2', name_1: 'Portland', name_2: 'bears' },
