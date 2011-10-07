@@ -17,6 +17,7 @@
 <% @games.each do |game| %>
   <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
     <td><%= game.week %></td>
+    <td><%= game.home_team_id %></td>
     <td><%= game.home_team_name %></td>
     <td><%= game.home_score %></td>
     <td><%= game.away_team_id %></td>

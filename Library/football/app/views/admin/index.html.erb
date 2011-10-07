@@ -1,17 +1,58 @@
 <h1>Fantasy Football Site Admin</h1>
 <body>
-<br />
-<%= image_tag("class_diagram.png") %>
-<b>leagues</b><br /><br />
-<b>divisions</b><br /><br />
-<b>users</b><br /><br />
-<li>password authentication</li><br />
-<b>owners</b><br /><br />
-<li>fix association to users</li><br />
-<b>teams</b><br /><br />
-<b>games</b><br /><br />
-<li>importer to bring in csv</li><br />
-<li>button to print report for espn messageboard</li><br />
-<li>method to get record for owner, or add migration to add winner_id to games</li><br />
+  <br />
+
+  <%= image_tag("class_diagram.png") %>
+
+  <h2>Class Issues</h2>
+  <h4>League</h4><br />
+
+  <h4>Division</h4>
+  <ul>
+    <li>Add collection set for league, then year to view divisions</li>
+  </ul>
+  <br />
+
+  <h4>User</h4>
+  <ul>
+    <li>Add user image from ESPN, iteration to store older images saved each game</li>
+  </ul>
+  <br />
+
+  <h4>Owner</h4>
+  <ul>
+    <li>Fix broken association to users (change in app/views/owners/index.html.erb - user.first_name from user_id breaks page)</li>
+  </ul>
+  <br />
+
+  <h4>Team</h4>
+  <br />
+
+  <h4>Game</h4>
+  <br />
+
+  <h4>NflGame</h4>
+  <br />
+
+  <h4>Draft</h4>
+  <br />
+
+  <h4>Player</h4>
+  <ul>
+    <li>Add sample data</li>
+  </ul>
+  <br /><br /><br />
+
+  <h2>Tasks</h2>
+  <h4>Password Authentication</h4>
+  <ul>
+    <li>Devise Gem</li>
+    <li>fix association to users</li>
+    <li>importer to bring in csv</li>
+    <li>button to print report for espn messageboard</li>
+    <li>method to get record for owner, or add migration to add winner_id to games</li>
+  </ul>
+  <br />
+
 </body>
 
