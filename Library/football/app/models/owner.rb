@@ -2,6 +2,7 @@ class Owner < ActiveRecord::Base
   belongs_to :user
   belongs_to :division
   has_many :games
+  has_many :drafts
   validates :user_id, :division_id, presence: true
 
   def team_name

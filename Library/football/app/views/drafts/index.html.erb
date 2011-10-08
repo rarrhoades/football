@@ -2,9 +2,9 @@
 
 <table>
   <tr>
+    <th>Year</th>
     <th>Owner</th>
     <th>Player</th>
-    <th>Year</th>
     <th>Round</th>
     <th>Pick</th>
     <th></th>
@@ -14,9 +14,9 @@
 
 <% @drafts.each do |draft| %>
   <tr>
-    <td><%= draft.owner_id %></td>
-    <td><%= draft.player_id %></td>
     <td><%= draft.year %></td>
+    <td><%= draft.owner.user.full_name %></td>
+    <td><%= draft.player.full_name %></td>
     <td><%= draft.round %></td>
     <td><%= draft.pick %></td>
     <td><%= link_to 'Show', draft %></td>
