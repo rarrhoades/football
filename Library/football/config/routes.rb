@@ -1,4 +1,6 @@
 Football::Application.routes.draw do
+  get "main/index"
+
   resources :nfl_games
 
   resources :players
